@@ -1,16 +1,19 @@
 .bingo {
-    border: 2px solid black; 
+    border:
+        2px
+        solid
+        black;
     width: 800px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 20px;    
+    padding: 20px;
 }
 
-.win { 
+.win {
     display: flex;
     justify-content: center;
-    padding: 20px; 
+    padding: 20px;
     font-size: 50px;
 }
 
@@ -23,20 +26,23 @@
 .carton {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(5, 1fr);    
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .numero {
-    border: 1px solid black;
+    border:
+        1px
+        solid
+        black;
     padding: 10px;
-    justify-self: center;    
+    justify-self: center;
 }
 
 .tachado {
     background: grey;
 }
 
-.bombo {    
+.bombo {
     margin: auto;
     width: 100px;
     height: 100px;
@@ -46,9 +52,4 @@
     justify-content: center;
     align-items: center;
     font-size: 70px;
-    margin: 10px;
-}
-
-.btnSacar {
-    
 }
