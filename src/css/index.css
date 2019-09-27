@@ -1,0 +1,54 @@
+.bingo {
+    border: 2px solid black; 
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;    
+}
+
+.win { 
+    display: flex;
+    justify-content: center;
+    padding: 20px; 
+    font-size: 50px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carton {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);    
+}
+
+.numero {
+    border: 1px solid black;
+    padding: 10px;
+    justify-self: center;    
+}
+
+.tachado {
+    background: grey;
+}
+
+.bombo {    
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    margin: 10px;
+}
+
+.btnSacar {
+    
+}
